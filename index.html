@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <!-- 오픈 그래프 -->
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="Starbucks" />
+  <meta property="og:title" content="Starbucks Coffee Korea" />
+  <meta property="og:description" content="스타벅스는 세계에서 가장 큰 다국적 커피 전문점으로, 64개국에서 총 23,187개의 매점을 운영하고 있습니다." />
+  <meta property="og:image" content="./images/starbucks_seo.jpg" />
+  <meta property="og:url" content="https://starbucks.co.kr" />
+
+  <!-- reset css -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css" />
+  <!-- google icons -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+  <!-- swiper -->
+  <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+  <!-- My css -->
+  <link rel="stylesheet" href="./css/main.css">
+
+  <!-- scrollMagic -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.8/ScrollMagic.min.js" integrity="sha512-8E3KZoPoZCD+1dgfqhPbejQBnQfBXe8FuwL4z/c8sTrgeDMFEnoyTlH3obB4/fV+6Sg0a0XF+L/6xS4Xx1fUEg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <!-- swiper -->
+  <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+  <!-- Gsap -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js" integrity="sha512-H6cPm97FAsgIKmlBA4s774vqoN24V5gSQL4yBTDOY2su2DeXZVhQPxFK4P6GPdnZqM9fg1G3cMv5wD7e6cFLZQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <!-- My js -->
+  <script defer src = "js/main.js"></script>
+</head>
+<body>
+  <!-- HEADER -->
+  <header>
+    <div class="inner">
+      <a href = "/" class="logo">
+        <img src="./image/burger-logo.png" alt="burger logo"/>
+      </a>
+      <div class="main-menu">
+        <ul>
+          <li><a href = "javascript:void(0)">HOME</a></li>
+          <li><a href = "javascript:void(0)">BURGER</a></li>
+          <li><a href = "javascript:void(0)">TASTE</a></li>
+          <li><a href = "javascript:void(0)">TASTE</a></li>
+          <li><a href = "javascript:void(0)">NEW</a></li>
+        </ul>
+      </div>
+      <div class="search">
+        <input type="text">
+        <div class="material-icons">
+          <a href = "javascript:void(0)">search</a>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- Main-Image -->
+  <section class = "main-image">
+    <div class="inner">
+      <div class = "fade-in">
+        <img src="./image/main-image-text-1.png" alt="burger monster" class = "main-image-text-1">
+      </div>
+      <div class = "fade-in">
+        <img src="./image/main-image-text-2.png" alt="여러분의 맛을 B.M이 함께 하겠습니다."class = "main-image-text-2">
+      </div>
+      <div class = "fade-in">
+        <img src="./image/main-image-character.png" alt="캐릭터" class = "main-image-character">
+      </div>
+    </div>
+  </section>
+  <!-- slide-image -->
+  <section class="slide-image scroll-spy">
+    <h2>음식 소개</h2>
+    <div class="swiper-container">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide  back-to-position to-up">
+          <img src="./image/slide_image_1-001.png" alt="아보카도 버거">
+          <a href="javascript:void(0)"class = "btn">구매하기</a>
+        </div>
+        <div class="swiper-slide  back-to-position to-up">
+          <img src="./image/slide_image_2-001.png" alt="칠리 핫도그">
+          <a href="javascript:void(0)"class = "btn">구매하기</a>
+        </div>
+        <div class="swiper-slide  back-to-position to-up">
+          <img src="./image/slide_image_3-001.png" alt="애그 샌드위치">
+          <a href="javascript:void(0)"class = "btn">구매하기</a>
+        </div>
+        <div class="swiper-slide  back-to-position to-up">
+          <img src="./image/slide_image_4-001.png" alt="밀크 토스트">
+          <a href="javascript:void(0)"class = "btn">구매하기</a>
+        </div>
+      </div>
+    </div>
+    <div class="swiper-next back-to-position to-up">
+      <div class="material-icons">
+        arrow_forward
+      </div>
+    </div>
+    <div class="swiper-prev back-to-position to-up">
+      <div class="material-icons">
+        arrow_back
+      </div>
+    </div>
+  </section>
+  <!-- hamburger -->
+  <section class="hamburger scroll-spy">
+    <div class="inner">
+      <img src="./image/hamburger-001.png" alt="햄버거" class = "hambrger__image back-to-position to-left delay-0"/>
+      <div class="text-group">
+        <img src="./image/hamburger_text-001.png" alt="햄버거 text" class = "title back-to-position to-left delay-1"/>
+      </div>
+      <div class="more back-to-position">
+        <a href="javascript:void(0)"class = "btn btn--brown">자세히 보기</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- hotdog -->
+  <section class="hotdog scroll-spy">
+    <div class="inner">
+      <img src="./image/hotdog-001.png" alt="핫도그" class = "hotdog__image back-to-position to-right delay-0"/>
+      <div class="text-group">
+        <img src="./image/hotdog_text_1-001.png" alt="핫도그 text1" class = "title back-to-position to-left delay-1">
+        <img src="./image/hotdog_text_2-001.png" alt="핫도그 text2" class = "description back-to-position to-left delay-2">
+      </div>
+      <div class="more back-to-position to-left delay-3">
+        <a href="javascript:void(0)"class = "btn btn--black">자세히 보기</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- sandwich -->
+  <section class="sandwich scroll-spy">
+    <div class="inner">
+      <img src="./image/sandwich-001.png" alt="샌드위치"class = "sandwich__image back-to-position to-left delay-0"/>
+      <div class="text-group">
+        <img src="./image/sandwich_text_1-001.png" alt="샌드위치 text1" class = "title back-to-position to-right delay-1"/>
+        <img src="./image/sandwich_text_2-001.png" alt="샌드위치 text2" class = "description back-to-position  to-right delay-2"/>
+      </div>
+      <div class="more back-to-position to-right delay-3">
+        <a href="javascript:void(0)"class = "btn btn--black">자세히 보기</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- toast -->
+  <section class="toast scroll-spy">
+    <div class="inner">
+      <img src="./image/toast-001.png" alt="토스트" class = "toast__image back-to-position to-right delay-0"/>
+      <div class="text-group">
+        <img src="./image/toast_text_1-001.png" alt="토스트 text1" class = "title back-to-position to-left delay-1"/>
+        <img src="./image/toast_text_2-001.png" alt="토스트 text2" class = "description back-to-position  to-left delay-2"/>
+      </div>
+      <div class="more back-to-position to-left delay-3">
+        <a href="javascript:void(0)"class = "btn btn--black">자세히 보기</a>
+      </div>
+    </div>
+  </section>
+</body>
+</html>
